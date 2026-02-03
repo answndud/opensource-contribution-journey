@@ -44,9 +44,10 @@
 - GitHub 저장소 연결
 
 ### Phase 1: 첫 기여 (🔄 진행 중)
-- **프로젝트**: [getting-started-guides](https://github.com/spring-guides/getting-started-guides)
-- **이슈**: [#166 - Misspelling in Building an Application with Spring Boot](https://github.com/spring-guides/getting-started-guides/issues/166)
-- **상태**: 이슈 선점 및 작업 중
+- **프로젝트**: [gs-rest-service](https://github.com/spring-guides/gs-rest-service)
+- **이슈**: [#168 - Maven jarfile 오류](https://github.com/spring-guides/getting-started-guides/issues/168)
+- **PR**: [#172 - docs: fix jarfile name in README](https://github.com/spring-guides/gs-rest-service/pull/172)
+- **상태**: workflow 승인 대기
 
 ### Phase 2~5: 예정
 - PetClinic 버그 수정
@@ -61,7 +62,7 @@
 ### PR 목록
 | # | 프로젝트 | 유형 | 상태 | 링크 |
 |---|---------|------|------|------|
-| 1 | getting-started-guides | 문서 | 🔄 진행중 | - |
+| 1 | gs-rest-service | 문서 | 🔄 진행중 | https://github.com/spring-guides/gs-rest-service/pull/172 |
 
 ---
 
@@ -103,8 +104,8 @@
 git config --global user.name "Your Name"
 git config --global user.email "you@example.com"
 
-# Markdown 도구
-npm install -g markdown-link-check prettier markdownlint-cli
+# Markdown 도구 (로컬 설치)
+npm install
 
 # GitHub CLI
 brew install gh
@@ -116,13 +117,13 @@ curl -s "https://get.sdkman.io" | bash
 ### 문서 검증
 ```bash
 # 링크 검사
-markdown-link-check *.md
+npm run lint:links
 
 # 포맷팅
-prettier --write *.md
+npm run format
 
 # 문법 검사
-markdownlint *.md
+npm run lint:md
 ```
 
 ---

@@ -21,9 +21,9 @@
 **기본 정보:**
 
 - **프로젝트**: spring-guides/gs-rest-service
-- **PR 링크**: https://github.com/answndud/gs-rest-service/pull/new/fix/issue-168-jarfile-name
+- **PR 링크**: https://github.com/spring-guides/gs-rest-service/pull/172
 - **이슈 링크**: https://github.com/spring-guides/getting-started-guides/issues/168
-- **상태**: ⏳ PR 생성 대기중
+- **상태**: ⏳ workflow 승인 대기
 - **날짜**: 2025-02-03
 
 **기여 내용:**
@@ -54,6 +54,10 @@
 cat complete/pom.xml | grep -E "(artifactId|version)"
 # 결과: artifactId: rest-service-complete, version: 0.0.1-SNAPSHOT
 ```
+
+**CI 상태:**
+- GitHub Actions workflow 승인 대기 (첫 기여자 보안 정책)
+
 
 **배운 점:**
 
