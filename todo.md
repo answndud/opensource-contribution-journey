@@ -302,6 +302,18 @@
 - **상태**: checks passed, 리뷰/머지 대기
 - **PR URL**: https://github.com/spring-guides/getting-started-macros/pull/19
 
+### 2025-02-03 (월) - Phase 1: 세 번째 기여 진행
+- **선정 이슈**: #170 (Maven/Gradle 탭 추가)
+- **작업 완료**:
+  - ✅ gs-rest-service 저장소 브랜치 생성: `feature/issue-170-maven-gradle-tabs`
+  - ✅ README.adoc에 Gradle/Maven 탭 추가
+  - ✅ PR 생성: spring-guides/gs-rest-service #173
+- **변경 내용**:
+  - 빌드/실행 가이드에 Gradle/Maven 탭 추가
+  - 기존 Java/Kotlin 탭 스타일과 일관성 유지
+- **상태**: 리뷰 대기
+- **PR URL**: https://github.com/spring-guides/gs-rest-service/pull/173
+
 ### [날짜] - 새로운 업데이트는 여기에 추가
 - 
 - 

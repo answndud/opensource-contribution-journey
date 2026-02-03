@@ -46,7 +46,8 @@
 ### Phase 1: 첫 기여 (🔄 진행 중)
 - **PR 1**: [gs-rest-service#172 - docs: fix jarfile name in README](https://github.com/spring-guides/gs-rest-service/pull/172)
 - **PR 2**: [getting-started-macros#19 - docs: fix broken classic WAR link](https://github.com/spring-guides/getting-started-macros/pull/19)
-- **상태**: PR1 workflow 승인 대기, PR2 checks passed (리뷰/머지 대기)
+- **PR 3**: [gs-rest-service#173 - docs: add Gradle and Maven build tabs](https://github.com/spring-guides/gs-rest-service/pull/173)
+- **상태**: PR1 workflow 승인 대기, PR2 checks passed, PR3 리뷰 대기
 
 ### Phase 2~5: 예정
 - PetClinic 버그 수정
@@ -63,6 +64,7 @@
 |---|---------|------|------|------|
 | 1 | gs-rest-service | 문서 | 🔄 진행중 | https://github.com/spring-guides/gs-rest-service/pull/172 |
 | 2 | getting-started-macros | 문서 | 🔄 진행중 | https://github.com/spring-guides/getting-started-macros/pull/19 |
+| 3 | gs-rest-service | 문서 | 🔄 진행중 | https://github.com/spring-guides/gs-rest-service/pull/173 |
 
 ---
 
