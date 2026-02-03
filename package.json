@@ -1,0 +1,21 @@
+{
+  "name": "contribute_opensource",
+  "version": "1.0.0",
+  "description": "> **Spring Boot 오픈소스 기여 활동 기록**   > 백엔드 개발자 취업을 위한 포트폴리오 프로젝트",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:md": "markdownlint *.md",
+    "lint:links": "markdown-link-check *.md",
+    "format": "prettier --write *.md",
+    "validate": "npm run lint:md && npm run lint:links"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "markdown-link-check": "^3.14.2",
+    "markdownlint-cli": "^0.47.0",
+    "prettier": "^3.8.1"
+  }
+}

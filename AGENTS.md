@@ -8,16 +8,25 @@ This repository contains Korean-language documentation guides for contributing t
 
 ## Build/Test Commands
 
-This is a documentation repository. No build system required.
+This is a documentation repository. Use local npm scripts:
 
 ```bash
-# Validate markdown links (if tool available)
-npx markdown-link-check *.md
+# Install dependencies
+npm install
 
-# Format markdown (if prettier available)
-npx prettier --write *.md
+# Validate markdown links
+npm run lint:links
+
+# Format markdown
+npm run format
 
 # Check markdown syntax
+npm run lint:md
+
+# Run all validations
+npm run validate
+
+# Docker alternative for markdownlint
 docker run --rm -v "$PWD:/workspace" davidanson/markdownlint-cli *.md
 ```
 
