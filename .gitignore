@@ -40,6 +40,6 @@ portfolio/
 
 # Local-only files
 opencode.json
-issue-168-gs-rest-service/
-issue-163-getting-started-macros/
-issue-163-gs-accessing-data-jpa/
+spring-guides/getting-started-guides/issue-168-gs-rest-service/
+spring-guides/getting-started-guides/issue-163-getting-started-macros/
+spring-guides/getting-started-guides/issue-163-gs-accessing-data-jpa/
