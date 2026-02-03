@@ -275,6 +275,20 @@
 - **진행 계획**: #168 → #163 → #170 순서로 진행
 - **다음**: GitHub CLI 인증 후 Issue #168 선점
 
+### 2025-02-03 (월) - Phase 1: 첫 기여 진행 완료
+- **선정 이슈**: #168 (Maven jarfile 오류)
+- **작업 완료**:
+  - ✅ gs-rest-service 저장소 Fork
+  - ✅ 브랜치 생성: `fix/issue-168-jarfile-name`
+  - ✅ README.adoc 수정: jar 파일명 변경
+  - ✅ 커밋: `48eb255 docs: fix jarfile name in README`
+  - ✅ 푸시 완료: answndud/gs-rest-service
+- **변경 내용**:
+  - 변경 전: `target/gs-rest-service-0.1.0.jar`
+  - 변경 후: `target/rest-service-complete-0.0.1-SNAPSHOT.jar`
+- **다음**: PR 생성 (수동)
+- **PR URL**: https://github.com/answndud/gs-rest-service/pull/new/fix/issue-168-jarfile-name
+
 ### [날짜] - 새로운 업데이트는 여기에 추가
 - 
 - 
