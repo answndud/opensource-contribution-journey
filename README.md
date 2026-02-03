@@ -44,10 +44,9 @@
 - GitHub 저장소 연결
 
 ### Phase 1: 첫 기여 (🔄 진행 중)
-- **프로젝트**: [gs-rest-service](https://github.com/spring-guides/gs-rest-service)
-- **이슈**: [#168 - Maven jarfile 오류](https://github.com/spring-guides/getting-started-guides/issues/168)
-- **PR**: [#172 - docs: fix jarfile name in README](https://github.com/spring-guides/gs-rest-service/pull/172)
-- **상태**: workflow 승인 대기
+- **PR 1**: [gs-rest-service#172 - docs: fix jarfile name in README](https://github.com/spring-guides/gs-rest-service/pull/172)
+- **PR 2**: [getting-started-macros#19 - docs: fix broken classic WAR link](https://github.com/spring-guides/getting-started-macros/pull/19)
+- **상태**: workflow 승인/리뷰 대기
 
 ### Phase 2~5: 예정
 - PetClinic 버그 수정
@@ -63,6 +62,7 @@
 | # | 프로젝트 | 유형 | 상태 | 링크 |
 |---|---------|------|------|------|
 | 1 | gs-rest-service | 문서 | 🔄 진행중 | https://github.com/spring-guides/gs-rest-service/pull/172 |
+| 2 | getting-started-macros | 문서 | 🔄 진행중 | https://github.com/spring-guides/getting-started-macros/pull/19 |
 
 ---
 

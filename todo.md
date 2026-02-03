@@ -289,6 +289,19 @@
 - **상태**: GitHub Actions workflow 승인 대기
 - **PR URL**: https://github.com/spring-guides/gs-rest-service/pull/172
 
+### 2025-02-03 (월) - Phase 1: 두 번째 기여 진행
+- **선정 이슈**: #163 (WAR 링크 404)
+- **작업 완료**:
+  - ✅ getting-started-macros 저장소 Fork
+  - ✅ 브랜치 생성: `fix/issue-163-war-link`
+  - ✅ build_an_executable_jar_with_both.adoc 링크 수정
+  - ✅ PR 생성: spring-guides/getting-started-macros #19
+- **변경 내용**:
+  - 변경 전: `/guides/gs/convert-jar-to-war/` (404)
+  - 변경 후: Spring Boot Reference "Traditional Deployment" 링크
+- **상태**: 리뷰 대기
+- **PR URL**: https://github.com/spring-guides/getting-started-macros/pull/19
+
 ### [날짜] - 새로운 업데이트는 여기에 추가
 - 
 - 
