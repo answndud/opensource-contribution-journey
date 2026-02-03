@@ -299,7 +299,7 @@
 - **변경 내용**:
   - 변경 전: `/guides/gs/convert-jar-to-war/` (404)
   - 변경 후: Spring Boot Reference "Traditional Deployment" 링크
-- **상태**: 리뷰 대기
+- **상태**: checks passed, 리뷰/머지 대기
 - **PR URL**: https://github.com/spring-guides/getting-started-macros/pull/19
 
 ### [날짜] - 새로운 업데이트는 여기에 추가
