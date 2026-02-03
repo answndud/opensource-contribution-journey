@@ -37,3 +37,7 @@ temp/
 
 # Exclude portfolio folder from public repo
 portfolio/
+
+# Local-only files
+opencode.json
+"gs-rest-service #168"/
