@@ -49,7 +49,8 @@
 - **PR 3**: [gs-rest-service#173 - docs: add Gradle and Maven build tabs](https://github.com/spring-guides/gs-rest-service/pull/173)
 - **PR 4**: [gs-rest-service#175 - docs: fix Initializr package name](https://github.com/spring-guides/gs-rest-service/pull/175)
 - **PR 5**: [spring-restdocs#1022 - fix: avoid inferring Content-Type without body](https://github.com/spring-projects/spring-restdocs/pull/1022)
-- **상태**: PR1 workflow 승인 대기, PR2 checks passed, PR3/PR4/PR5 리뷰 대기
+- **PR 6**: [spring-restdocs#1023 - feat: support path prefixes in modifyUris](https://github.com/spring-projects/spring-restdocs/pull/1023)
+- **상태**: PR1 workflow 승인 대기, PR2 checks passed, PR3/PR4/PR5/PR6 리뷰 대기
 
 ### Phase 2~5: 예정
 - PetClinic 버그 수정
@@ -69,6 +70,7 @@
 | 3 | gs-rest-service | 문서 | 🔄 진행중 | https://github.com/spring-guides/gs-rest-service/pull/173 |
 | 4 | gs-rest-service | 문서 | 🔄 진행중 | https://github.com/spring-guides/gs-rest-service/pull/175 |
 | 5 | spring-restdocs | 버그 수정 | 🔄 진행중 | https://github.com/spring-projects/spring-restdocs/pull/1022 |
+| 6 | spring-restdocs | 기능 추가 | 🔄 진행중 | https://github.com/spring-projects/spring-restdocs/pull/1023 |
 
 ---
 

@@ -336,6 +336,18 @@
 - **상태**: 리뷰 대기
 - **PR URL**: https://github.com/spring-projects/spring-restdocs/pull/1022
 
+### 2025-02-04 (화) - Phase 2: URI path prefix 기능 추가
+- **선정 이슈**: spring-restdocs #945 (URI path 수정 지원)
+- **작업 완료**:
+  - ✅ UriModifyingOperationPreprocessor에 pathPrefix 지원 추가
+  - ✅ 콘텐츠/헤더 URI 경로 수정 로직 확장
+  - ✅ 테스트 추가 (요청/응답 path prefix)
+  - ✅ PR 생성: spring-projects/spring-restdocs #1023
+- **변경 내용**:
+  - modifyUris()에서 path prefix 적용 가능
+- **상태**: 리뷰 대기
+- **PR URL**: https://github.com/spring-projects/spring-restdocs/pull/1023
+
 ### [날짜] - 새로운 업데이트는 여기에 추가
 - 
 - 
