@@ -314,6 +314,28 @@
 - **상태**: 리뷰 대기
 - **PR URL**: https://github.com/spring-guides/gs-rest-service/pull/173
 
+### 2025-02-03 (월) - Phase 1: 네 번째 기여 진행
+- **선정 이슈**: #195 (Initializr 네이밍 불일치)
+- **작업 완료**:
+  - ✅ gs-rest-service README.adoc Initializr 링크 수정
+  - ✅ PR 생성: spring-guides/gs-rest-service #175
+- **변경 내용**:
+  - 변경 전: `packageName=com.example.rest-service`
+  - 변경 후: `packageName=com.example.restservice`
+- **상태**: 리뷰 대기
+- **PR URL**: https://github.com/spring-guides/gs-rest-service/pull/175
+
+### 2025-02-04 (화) - Phase 2: 난이도 있는 버그 수정
+- **선정 이슈**: spring-restdocs #1017 (Content-Type 추론 오류)
+- **작업 완료**:
+  - ✅ HttpRequestSnippet의 Content-Type 추론 로직 수정
+  - ✅ 빈 POST 요청에 대한 테스트 추가
+  - ✅ PR 생성: spring-projects/spring-restdocs #1022
+- **변경 내용**:
+  - 요청 body가 없을 때 Content-Type 자동 추가 방지
+- **상태**: 리뷰 대기
+- **PR URL**: https://github.com/spring-projects/spring-restdocs/pull/1022
+
 ### [날짜] - 새로운 업데이트는 여기에 추가
 - 
 - 
