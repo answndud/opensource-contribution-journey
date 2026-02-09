@@ -113,7 +113,7 @@ fix/<error-description>
 │   └── 02-gs-spring-boot-reference-issue-195/
 ├── 02-spring-projects/                # Spring Projects workspaces
 │   └── 01-spring-restdocs-issues-1017-945/
-└── 03-portfolio/                      # Job interview portfolio (local-only)
+└── portfolio/                         # Job interview portfolio (local-only)
     ├── project-selection/             # Project selection reasoning
     │   └── why-spring-boot-opensource.md
     ├── contributions/                 # Contribution tracking
