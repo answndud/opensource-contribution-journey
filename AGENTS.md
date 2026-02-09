@@ -101,11 +101,19 @@ fix/<error-description>
 
 ```
 /
-├── README.md                          # Project overview (if exists)
+├── README.md                          # Project overview (public)
 ├── AGENTS.md                          # This file
-├── how-to-contribute-to-open-source.md # Main contribution guide
-├── spring-boot-contribution-guide.md   # Project recommendations
-└── portfolio/                         # Job interview portfolio
+├── 01-guide-open-source-contribution.md # Main contribution guide
+├── 02-guide-spring-boot-projects.md   # Project recommendations
+├── 03-progress-plan.md                # Roadmap and timeline
+├── 04-local-setup.md                  # Local setup notes
+├── 05-pr-168-guide.md                 # First PR playbook
+├── 01-spring-guides/                  # Spring Guides workspaces
+│   ├── 01-getting-started-guides-issues/
+│   └── 02-gs-spring-boot/
+├── 02-spring-projects/                # Spring Projects workspaces
+│   └── 01-spring-restdocs-issues-1017-945/
+└── 03-portfolio/                      # Job interview portfolio (local-only)
     ├── project-selection/             # Project selection reasoning
     │   └── why-spring-boot-opensource.md
     ├── contributions/                 # Contribution tracking

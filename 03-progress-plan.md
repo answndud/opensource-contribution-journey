@@ -9,11 +9,11 @@
 ## 📋 진행 현황
 
 ### ✅ 완료된 작업
-- [x] 프로젝트 가이드 문서 작성 (how-to-contribute-to-open-source.md)
-- [x] Spring Boot 프로젝트 추천 목록 작성 (spring-boot-contribution-guide.md)
+- [x] 프로젝트 가이드 문서 작성 (01-guide-open-source-contribution.md)
+- [x] Spring Boot 프로젝트 추천 목록 작성 (02-guide-spring-boot-projects.md)
 - [x] AGENTS.md 작성 (AI 가이드)
 - [x] 개발 환경 설정 (Git, GitHub CLI, markdown tools, SDKMAN, MCP)
-- [x] 포트폴리오 문서 템플릿 작성 (portfolio/)
+- [x] 포트폴리오 문서 템플릿 작성 (03-portfolio/)
 
 ### 🎯 현재 진행 중
 - [ ] Phase 1: 첫 번째 기여 진행 중 (PR #172 workflow 승인 대기)
@@ -34,7 +34,7 @@
 
 **산출물**:
 - AGENTS.md
-- portfolio/ 폴더 및 템플릿 6개
+- 03-portfolio/ 폴더 및 템플릿 6개
 - 설치된 도구 15개 이상
 
 ---
@@ -66,9 +66,9 @@
    - [ ] 머지 완료
 
 4. **문서화** (2/9 ~ 2/10)
-   - [ ] portfolio/project-selection/ 업데이트
-   - [ ] portfolio/contributions/ 첫 PR 기록
-   - [ ] portfolio/retrospectives/ 주간 회고 작성
+   - [ ] 03-portfolio/project-selection/ 업데이트
+   - [ ] 03-portfolio/contributions/ 첫 PR 기록
+   - [ ] 03-portfolio/retrospectives/ 주간 회고 작성
 
 **목표 프로젝트 후보**:
 1. `spring-guides/gs-spring-boot` - README 오타 수정
@@ -106,9 +106,9 @@
    - [ ] PR 제출
 
 4. **문서화** (3/9 ~ 3/10)
-   - [ ] portfolio/contributions/ 업데이트
-   - [ ] portfolio/learnings/ 테스트 작성 학습 정리
-   - [ ] portfolio/debugging-logs/ 문제 해결 기록
+   - [ ] 03-portfolio/contributions/ 업데이트
+   - [ ] 03-portfolio/learnings/ 테스트 작성 학습 정리
+   - [ ] 03-portfolio/debugging-logs/ 문제 해결 기록
 
 **목표 프로젝트**:
 - `spring-projects/spring-petclinic` - UI/UX 개선 또는 버그 수정
@@ -143,9 +143,9 @@
    - [ ] PR 제출
 
 4. **문서화** (4/6 ~ 4/7)
-   - [ ] portfolio/contributions/ 업데이트
-   - [ ] portfolio/learnings/ Spring Boot 심화 학습 정리
-   - [ ] portfolio/retrospectives/ 월간 회고
+   - [ ] 03-portfolio/contributions/ 업데이트
+   - [ ] 03-portfolio/learnings/ Spring Boot 심화 학습 정리
+   - [ ] 03-portfolio/retrospectives/ 월간 회고
 
 **목표 프로젝트 후보**:
 - `spring-projects/spring-data-examples` - 예제 추가
@@ -196,7 +196,7 @@
 #### 구체적 계획
 1. **포트폴리오 정리** (5/1 ~ 5/3)
    - [ ] GitHub 프로필 최적화
-   - [ ] portfolio/interview-prep/ 완성
+   - [ ] 03-portfolio/interview-prep/ 완성
    - [ ] 1분 자기소개 작성
 
 2. **면접 연습** (5/3 ~ 5/7)
@@ -263,7 +263,7 @@
 
 ### 2025-02-03 (월) - Phase 0 완료
 - **완료**: Phase 0 완료 (환경 설정)
-- **산출물**: AGENTS.md, portfolio/ 구조, 도구 설치 15개, README.md
+- **산출물**: AGENTS.md, 03-portfolio/ 구조, 도구 설치 15개, README.md
 - **다음**: Phase 1 시작 - 프로젝트 선정
 
 ### 2025-02-03 (월) - Phase 1: 첫 기여 준비

@@ -27,9 +27,9 @@
 ## 📚 가이드 문서
 
 ### 🚀 시작하기
-- [`how-to-contribute-to-open-source.md`](how-to-contribute-to-open-source.md) - 오픈소스 기여 완벽 가이드
-- [`spring-boot-contribution-guide.md`](spring-boot-contribution-guide.md) - Spring Boot 프로젝트 추천 목록
-- [`todo.md`](todo.md) - 상세 진행 계획 및 타임라인
+- [`01-guide-open-source-contribution.md`](01-guide-open-source-contribution.md) - 오픈소스 기여 완벽 가이드
+- [`02-guide-spring-boot-projects.md`](02-guide-spring-boot-projects.md) - Spring Boot 프로젝트 추천 목록
+- [`03-progress-plan.md`](03-progress-plan.md) - 상세 진행 계획 및 타임라인
 
 ### 🛠️ 개발 환경
 - [AGENTS.md](AGENTS.md) - AI 에이전트 및 기여자를 위한 가이드라인
@@ -100,7 +100,7 @@
 - ✅ **회고 템플릿**: Keep/Problem/Try 방식의 성장 기록
 - ✅ **면접 가이드**: STAR 기법을 활용한 답변 준비
 
-*(상세 포트폴리오 문서는 로컬 `portfolio/` 폴더에 있으며, 개인 학습 기록으로 비공개)*
+*(상세 포트폴리오 문서는 로컬 `03-portfolio/` 폴더에 있으며, 개인 학습 기록으로 비공개)*
 
 ---
 

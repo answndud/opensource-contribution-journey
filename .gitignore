@@ -36,11 +36,9 @@ temp/
 *.tmp
 
 # Exclude portfolio folder from public repo
-portfolio/
+03-portfolio/
 
 # Local-only files
 opencode.json
-spring-guides/getting-started-guides/issue-168-gs-rest-service/
-spring-guides/getting-started-guides/issue-163-getting-started-macros/
-spring-guides/getting-started-guides/issue-163-gs-accessing-data-jpa/
-spring-projects/spring-restdocs/
+01-spring-guides/
+02-spring-projects/

@@ -67,10 +67,10 @@ Fixes spring-guides/getting-started-guides#168
    - 원본 이슈 #168에 "PR created: [PR 링크]" 라고 댓글 달기
 
 2. **portfolio 업데이트**:
-   - `portfolio/contributions/contribution-tracking.md`에 기록 추가
-   - `portfolio/retrospectives/retrospective-template.md`에 회고 작성
+   - `03-portfolio/contributions/contribution-tracking.md`에 기록 추가
+   - `03-portfolio/retrospectives/retrospective-template.md`에 회고 작성
 
-3. **todo.md 업데이트**:
+3. **03-progress-plan.md 업데이트**:
    - 진행 상황 기록
 
 4. **CI 확인**:
