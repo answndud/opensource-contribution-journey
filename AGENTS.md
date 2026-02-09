@@ -110,7 +110,7 @@ fix/<error-description>
 ├── 05-pr-168-guide.md                 # First PR playbook
 ├── 01-spring-guides/                  # Spring Guides workspaces
 │   ├── 01-getting-started-guides-issues/
-│   └── 02-gs-spring-boot/
+│   └── 02-gs-spring-boot-reference-issue-195/
 ├── 02-spring-projects/                # Spring Projects workspaces
 │   └── 01-spring-restdocs-issues-1017-945/
 └── 03-portfolio/                      # Job interview portfolio (local-only)
