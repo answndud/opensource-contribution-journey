@@ -58,7 +58,8 @@
 - **PR 10**: [spring-batch#5309 - fix: duplicated write count in local chunking sample](https://github.com/spring-projects/spring-batch/pull/5309) (중복 이슈로 철회)
 - **PR 11**: [spring-batch#5313 - docs: update outdated Javadoc links](https://github.com/spring-projects/spring-batch/pull/5313)
 - **PR 12**: [spring-batch#5315 - fix: parse command-line params with '=' safely](https://github.com/spring-projects/spring-batch/pull/5315)
-- **상태 요약**: ✅ 머지 2개 / ❌ 거부 5개 / ⚪ 철회 1개 / ⏳ 리뷰 대기 4개
+- **PR 13**: [spring-batch#5316 - fix: fail tasklet step on checked exception in non-rollback mode](https://github.com/spring-projects/spring-batch/pull/5316)
+- **상태 요약**: ✅ 머지 2개 / ❌ 거부 5개 / ⚪ 철회 1개 / ⏳ 리뷰 대기 5개
 
 ---
 
@@ -80,6 +81,7 @@
 | 10 | spring-batch | 버그 수정 | ⚪ 철회(중복 이슈) | [#5309](https://github.com/spring-projects/spring-batch/pull/5309) |
 | 11 | spring-batch | 문서 | ⏳ 리뷰 대기 | [#5313](https://github.com/spring-projects/spring-batch/pull/5313) |
 | 12 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5315](https://github.com/spring-projects/spring-batch/pull/5315) |
+| 13 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5316](https://github.com/spring-projects/spring-batch/pull/5316) |
 
 ---
 
