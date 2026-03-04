@@ -11,16 +11,18 @@
 
 ## 🎯 프로젝트 목표
 
-**기간**: 2025년 2월 ~ 5월 (3개월)  
+**기간**: 2025년 2월 ~ 진행 중  
+**기준일**: 2026년 3월 4일  
 **목표**: Spring Boot 생태계에 **10개 이상**의 기여 활동  
 **최종 목적**: 백엔드 개발자 취업 및 포트폴리오 구축
 
 ### 기여 목표
+
 | 유형 | 목표 | 현재 |
-|-----|------|------|
-| 문서 기여 | 3개 | 0개 |
-| 버그 수정 | 4개 | 0개 |
-| 기능 추가 | 3개 | 0개 |
+| ---- | ---- | ---- |
+| 문서 기여 | 3개 | 5개 |
+| 버그 수정 | 4개 | 3개 |
+| 기능 추가 | 3개 | 1개 |
 
 ---
 
@@ -50,27 +52,28 @@
 - **PR 4**: [gs-rest-service#175 - docs: fix Initializr package name](https://github.com/spring-guides/gs-rest-service/pull/175)
 - **PR 5**: [spring-restdocs#1022 - fix: avoid inferring Content-Type without body](https://github.com/spring-projects/spring-restdocs/pull/1022)
 - **PR 6**: [spring-restdocs#1023 - feat: support path prefixes in modifyUris](https://github.com/spring-projects/spring-restdocs/pull/1023)
-- **상태**: PR1 workflow 승인 대기, PR2 checks passed, PR3/PR4/PR5/PR6 리뷰 대기
-
-### Phase 2~5: 예정
-- PetClinic 버그 수정
-- Spring Data 예제 추가
-- Spring Cloud 기여
-- 취업 준비 및 면접
+- **PR 7**: [querydsl#3933 - fix: Register MorphiaAnnotationProcessor for Jakarta EE](https://github.com/querydsl/querydsl/pull/3933)
+- **PR 8**: [querydsl#3934 - fix: escape Java keywords in Q-class names](https://github.com/querydsl/querydsl/pull/3934)
+- **PR 9**: [iceberg#15309 - docs: fix uuid type formatting in schemas.md](https://github.com/apache/iceberg/pull/15309)
+- **상태 요약**: ✅ 머지 1개 / ❌ 거부 5개 / ⏳ 리뷰 대기 3개
 
 ---
 
 ## 📊 기여 활동
 
 ### PR 목록
+
 | # | 프로젝트 | 유형 | 상태 | 링크 |
-|---|---------|------|------|------|
-| 1 | gs-rest-service | 문서 | 🔄 진행중 | https://github.com/spring-guides/gs-rest-service/pull/172 |
-| 2 | getting-started-macros | 문서 | 🔄 진행중 | https://github.com/spring-guides/getting-started-macros/pull/19 |
-| 3 | gs-rest-service | 문서 | 🔄 진행중 | https://github.com/spring-guides/gs-rest-service/pull/173 |
-| 4 | gs-rest-service | 문서 | 🔄 진행중 | https://github.com/spring-guides/gs-rest-service/pull/175 |
-| 5 | spring-restdocs | 버그 수정 | 🔄 진행중 | https://github.com/spring-projects/spring-restdocs/pull/1022 |
-| 6 | spring-restdocs | 기능 추가 | 🔄 진행중 | https://github.com/spring-projects/spring-restdocs/pull/1023 |
+| --- | --- | --- | --- | --- |
+| 1 | gs-rest-service | 문서 | ❌ 거부 | [#172](https://github.com/spring-guides/gs-rest-service/pull/172) |
+| 2 | getting-started-macros | 문서 | ❌ 거부 | [#19](https://github.com/spring-guides/getting-started-macros/pull/19) |
+| 3 | gs-rest-service | 문서 | ❌ 거부 | [#173](https://github.com/spring-guides/gs-rest-service/pull/173) |
+| 4 | gs-rest-service | 문서 | ✅ 머지 | [#175](https://github.com/spring-guides/gs-rest-service/pull/175) |
+| 5 | spring-restdocs | 버그 수정 | ❌ 거부 | [#1022](https://github.com/spring-projects/spring-restdocs/pull/1022) |
+| 6 | spring-restdocs | 기능 추가 | ❌ 거부 | [#1023](https://github.com/spring-projects/spring-restdocs/pull/1023) |
+| 7 | querydsl | 버그 수정 | ⏳ 리뷰 대기 | [#3933](https://github.com/querydsl/querydsl/pull/3933) |
+| 8 | querydsl | 버그 수정 | ⏳ 리뷰 대기 | [#3934](https://github.com/querydsl/querydsl/pull/3934) |
+| 9 | apache/iceberg | 문서 | ⏳ 리뷰 대기 | [#15309](https://github.com/apache/iceberg/pull/15309) |
 
 ---
 
@@ -152,4 +155,4 @@ npm run lint:md
 
 **⭐ Star를 눌러주시면 더 많은 개발자들이 이 가이드를 발견할 수 있습니다!**
 
-*마지막 업데이트: 2025년 2월 3일*
+*마지막 업데이트: 2026년 3월 4일*

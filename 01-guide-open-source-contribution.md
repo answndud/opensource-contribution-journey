@@ -229,7 +229,8 @@ git checkout -b refactor/simplify-service-101
 # 1. main 브랜치에서 최신 코드 받기
 git checkout main
 git fetch upstream
-git reset --hard upstream/main
+# 로컬 변경이 없다면 fast-forward로 안전하게 동기화
+git merge --ff-only upstream/main
 
 # 2. 새 브랜치 생성
 git checkout -b fix/<short-desc>-<issue-number>
@@ -435,8 +436,8 @@ git commit -s -m "Fix: handle null request body"
 # 마지막 N개 커밋에 서명 추가
 git rebase HEAD~3 --signoff
 
-# 강제 푸시 (주의: PR 브랜치에서만 사용)
-git push -f origin HEAD
+# 히스토리 변경이 있으므로 안전 플래그로 푸시
+git push --force-with-lease origin HEAD
 ```
 
 ---
@@ -579,7 +580,7 @@ git add <충돌 해결된 파일>
 git rebase --continue
 
 # 3. 강제 푸시 (rebase는 히스토리를 변경하므로)
-git push -f
+git push --force-with-lease origin HEAD
 ```
 
 **💡 충돌이 너무 많으면**: 새 브랜치를 만들어 처음부터 cherry-pick 하는 것도 방법
@@ -616,10 +617,11 @@ git checkout main
 
 # 2. 최신 원본 동기화
 git fetch upstream
-git reset --hard upstream/main
+# 로컬 변경이 있으면 먼저 커밋/스태시 후 동기화
+git merge --ff-only upstream/main
 
 # 3. 로컬 브랜치 삭제
-git branch -D fix/<short-desc>-<issue-number>
+git branch -d fix/<short-desc>-<issue-number>
 
 # 4. 원격 브랜치 삭제
 git push origin :fix/<short-desc>-<issue-number>
@@ -628,7 +630,7 @@ git push origin --delete fix/<short-desc>-<issue-number>
 
 # 5. 내 포크 동기화 (GitHub UI에서 Sync fork 클릭)
 # 또는 명령어로:
-git push origin main --force-with-lease
+git push origin main
 ```
 
 ## 다음 기여 준비
@@ -780,16 +782,16 @@ git rebase upstream/main
 # 2. git add <파일>
 # 3. git rebase --continue
 
-# 푸시 (강제 푸시 주의)
-git push -f
+# 푸시 (리베이스 후에는 안전 강제 푸시 사용)
+git push --force-with-lease origin HEAD
 
 # ============== 7) 머지 후 정리 ==============
 git checkout main
 git fetch upstream
-git reset --hard upstream/main
-git branch -D fix/<desc>-<issue#>
+git merge --ff-only upstream/main
+git branch -d fix/<desc>-<issue#>
 git push origin --delete fix/<desc>-<issue#>
-git push origin main --force-with-lease
+git push origin main
 ```
 
 ---
