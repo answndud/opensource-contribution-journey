@@ -21,7 +21,7 @@
 | 유형 | 목표 | 현재 |
 | ---- | ---- | ---- |
 | 문서 기여 | 3개 | 5개 |
-| 버그 수정 | 4개 | 3개 |
+| 버그 수정 | 4개 | 4개 |
 | 기능 추가 | 3개 | 1개 |
 
 ---
@@ -55,7 +55,8 @@
 - **PR 7**: [querydsl#3933 - fix: Register MorphiaAnnotationProcessor for Jakarta EE](https://github.com/querydsl/querydsl/pull/3933)
 - **PR 8**: [querydsl#3934 - fix: escape Java keywords in Q-class names](https://github.com/querydsl/querydsl/pull/3934)
 - **PR 9**: [iceberg#15309 - docs: fix uuid type formatting in schemas.md](https://github.com/apache/iceberg/pull/15309)
-- **상태 요약**: ✅ 머지 2개 / ❌ 거부 5개 / ⏳ 리뷰 대기 2개
+- **PR 10**: [spring-batch#5309 - fix: duplicated write count in local chunking sample](https://github.com/spring-projects/spring-batch/pull/5309)
+- **상태 요약**: ✅ 머지 2개 / ❌ 거부 5개 / ⏳ 리뷰 대기 3개
 
 ---
 
@@ -74,6 +75,7 @@
 | 7 | querydsl | 버그 수정 | ⏳ 리뷰 대기 | [#3933](https://github.com/querydsl/querydsl/pull/3933) |
 | 8 | querydsl | 버그 수정 | ⏳ 리뷰 대기 | [#3934](https://github.com/querydsl/querydsl/pull/3934) |
 | 9 | apache/iceberg | 문서 | ✅ 머지 | [#15309](https://github.com/apache/iceberg/pull/15309) |
+| 10 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5309](https://github.com/spring-projects/spring-batch/pull/5309) |
 
 ---
 
