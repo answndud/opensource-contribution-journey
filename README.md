@@ -43,6 +43,12 @@
 - [spring-batch#5317](https://github.com/spring-projects/spring-batch/pull/5317)
 - [spring-security#18850](https://github.com/spring-projects/spring-security/pull/18850)
 
+### 🔁 운영 루틴 (매일 10분)
+- 상태 스냅샷 생성: `./scripts/pr-status-snapshot.sh`
+- 상태 변경 PR만 `portfolio/기여-활동/기여-활동-트래킹.md`에 5줄로 업데이트
+- 리뷰 대기 7일 이상이면 영어 follow-up 코멘트 1회 작성
+- 변경이 있으면 README의 `한눈에 보기` 수치 갱신
+
 ### PR 목록 (전체)
 
 | # | 프로젝트 | 유형 | 상태 | 링크 |
