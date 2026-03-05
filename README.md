@@ -12,7 +12,7 @@
 ## 🎯 프로젝트 목표
 
 **기간**: 2025년 2월 ~ 진행 중  
-**기준일**: 2026년 3월 4일  
+**기준일**: 2026년 3월 5일  
 **목표**: Spring Boot 생태계에 **10개 이상**의 기여 활동  
 **최종 목적**: 백엔드 개발자 취업 및 포트폴리오 구축
 
@@ -21,51 +21,29 @@
 | 유형 | 목표 | 현재 |
 | ---- | ---- | ---- |
 | 문서 기여 | 3개 | 6개 |
-| 버그 수정 | 4개 | 4개 |
+| 버그 수정 | 4개 | 8개 |
 | 기능 추가 | 3개 | 1개 |
-
----
-
-## 📚 가이드 문서
-
-### 🚀 시작하기
-- [`01-guide-open-source-contribution.md`](01-guide-open-source-contribution.md) - 오픈소스 기여 완벽 가이드
-- [`02-guide-spring-boot-projects.md`](02-guide-spring-boot-projects.md) - Spring Boot 프로젝트 추천 목록
-- [`03-progress-plan.md`](03-progress-plan.md) - 상세 진행 계획 및 타임라인
-
-### 🛠️ 개발 환경
-- [AGENTS.md](AGENTS.md) - AI 에이전트 및 기여자를 위한 가이드라인
-
----
-
-## 🗓️ 진행 현황
-
-### Phase 0: 환경 설정 (✅ 완료)
-- 개발 도구 설치 (Git, GitHub CLI, Markdown tools, SDKMAN)
-- 포트폴리오 문서 구조 작성
-- GitHub 저장소 연결
-
-### Phase 1: 첫 기여 (🔄 진행 중)
-- **PR 1**: [gs-rest-service#172 - docs: fix jarfile name in README](https://github.com/spring-guides/gs-rest-service/pull/172)
-- **PR 2**: [getting-started-macros#19 - docs: fix broken classic WAR link](https://github.com/spring-guides/getting-started-macros/pull/19)
-- **PR 3**: [gs-rest-service#173 - docs: add Gradle and Maven build tabs](https://github.com/spring-guides/gs-rest-service/pull/173)
-- **PR 4**: [gs-rest-service#175 - docs: fix Initializr package name](https://github.com/spring-guides/gs-rest-service/pull/175)
-- **PR 5**: [spring-restdocs#1022 - fix: avoid inferring Content-Type without body](https://github.com/spring-projects/spring-restdocs/pull/1022)
-- **PR 6**: [spring-restdocs#1023 - feat: support path prefixes in modifyUris](https://github.com/spring-projects/spring-restdocs/pull/1023)
-- **PR 7**: [querydsl#3933 - fix: Register MorphiaAnnotationProcessor for Jakarta EE](https://github.com/querydsl/querydsl/pull/3933)
-- **PR 8**: [querydsl#3934 - fix: escape Java keywords in Q-class names](https://github.com/querydsl/querydsl/pull/3934)
-- **PR 9**: [iceberg#15309 - docs: fix uuid type formatting in schemas.md](https://github.com/apache/iceberg/pull/15309)
-- **PR 10**: [spring-batch#5309 - fix: duplicated write count in local chunking sample](https://github.com/spring-projects/spring-batch/pull/5309) (중복 이슈로 철회)
-- **PR 11**: [spring-batch#5313 - docs: update outdated Javadoc links](https://github.com/spring-projects/spring-batch/pull/5313)
-- **PR 12**: [spring-batch#5315 - fix: parse command-line params with '=' safely](https://github.com/spring-projects/spring-batch/pull/5315)
-- **PR 13**: [spring-batch#5316 - fix: fail tasklet step on checked exception in non-rollback mode](https://github.com/spring-projects/spring-batch/pull/5316)
-- **상태 요약**: ✅ 머지 2개 / ❌ 거부 5개 / ⚪ 철회 1개 / ⏳ 리뷰 대기 5개
 
 ---
 
 ## 📊 기여 활동
 
-### PR 목록
+### 한눈에 보기
+
+| 총 PR | ✅ 머지 | ⏳ 리뷰 대기 | ⚪ 거부·종료 |
+| --- | --- | --- | --- |
+| 15개 | 2개 | 7개 | 6개 |
+
+### 🔎 지금 확인할 PR (리뷰 대기)
+- [querydsl#3933](https://github.com/querydsl/querydsl/pull/3933)
+- [querydsl#3934](https://github.com/querydsl/querydsl/pull/3934)
+- [spring-batch#5313](https://github.com/spring-projects/spring-batch/pull/5313)
+- [spring-batch#5315](https://github.com/spring-projects/spring-batch/pull/5315)
+- [spring-batch#5316](https://github.com/spring-projects/spring-batch/pull/5316)
+- [spring-batch#5317](https://github.com/spring-projects/spring-batch/pull/5317)
+- [spring-security#18850](https://github.com/spring-projects/spring-security/pull/18850)
+
+### PR 목록 (전체)
 
 | # | 프로젝트 | 유형 | 상태 | 링크 |
 | --- | --- | --- | --- | --- |
@@ -82,6 +60,8 @@
 | 11 | spring-batch | 문서 | ⏳ 리뷰 대기 | [#5313](https://github.com/spring-projects/spring-batch/pull/5313) |
 | 12 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5315](https://github.com/spring-projects/spring-batch/pull/5315) |
 | 13 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5316](https://github.com/spring-projects/spring-batch/pull/5316) |
+| 14 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5317](https://github.com/spring-projects/spring-batch/pull/5317) |
+| 15 | spring-security | 버그 수정 | ⏳ 리뷰 대기 | [#18850](https://github.com/spring-projects/spring-security/pull/18850) |
 
 ---
 
@@ -99,19 +79,6 @@
 3. 로컬 개발 및 테스트
 4. PR 제출 및 리뷰 대응
 5. 머지 및 정리
-
----
-
-## 🎓 면접 준비 자료
-
-이 저장소는 다음을 포함합니다:
-- ✅ **포트폴리오 가이드**: 프로젝트 선택 이유 및 기여 과정
-- ✅ **기여 트래킹**: PR 기록 및 성과 분석
-- ✅ **기술 학습 일지**: Spring Boot 심화 학습 내용
-- ✅ **회고 템플릿**: Keep/Problem/Try 방식의 성장 기록
-- ✅ **면접 가이드**: STAR 기법을 활용한 답변 준비
-
-*(상세 포트폴리오 문서는 로컬 `portfolio/` 폴더에 있으며, 개인 학습 기록으로 비공개)*
 
 ---
 
@@ -147,20 +114,4 @@ npm run lint:md
 
 ---
 
-## 📞 연락처
-
-- **GitHub**: [@answndud](https://github.com/answndud)
-- **Email**: jmoon0227@gmail.com
-- **Blog**: *(추후 업데이트)*
-
----
-
-## 📄 라이선스
-
-이 프로젝트는 [MIT 라이선스](LICENSE) 하에 제공됩니다.
-
----
-
-**⭐ Star를 눌러주시면 더 많은 개발자들이 이 가이드를 발견할 수 있습니다!**
-
-*마지막 업데이트: 2026년 3월 4일*
+*마지막 업데이트: 2026년 3월 5일*
