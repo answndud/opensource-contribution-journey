@@ -114,18 +114,18 @@ fix/<error-description>
 ├── 02-spring-projects/                # Spring Projects workspaces
 │   └── 01-spring-restdocs-issues-1017-945/
 └── portfolio/                         # Job interview portfolio (local-only)
-    ├── project-selection/             # Project selection reasoning
-    │   └── why-spring-boot-opensource.md
-    ├── contributions/                 # Contribution tracking
-    │   └── contribution-tracking.md
-    ├── learnings/                     # Technical learning journal
-    │   └── learning-journal.md
-    ├── retrospectives/                # Development retrospectives
-    │   └── retrospective-template.md
-    ├── interview-prep/                # Interview preparation
-    │   └── interview-guide.md
-    └── debugging-logs/                # Problem solving logs
-        └── debugging-log.md
+    ├── 프로젝트-선정/                 # Project selection reasoning
+    │   └── 스프링부트-오픈소스-선정-이유.md
+    ├── 기여-활동/                     # Contribution tracking
+    │   └── 기여-활동-트래킹.md
+    ├── 학습-일지/                     # Technical learning journal
+    │   └── 학습-일지.md
+    ├── 회고/                          # Development retrospectives
+    │   └── 회고-템플릿.md
+    ├── 면접-준비/                     # Interview preparation
+    │   └── 면접-가이드.md
+    └── 디버깅-로그/                    # Problem solving logs
+        └── 디버깅-로그.md
 ```
 
 ## Maintenance Tasks
@@ -163,10 +163,10 @@ This repository serves as a backend developer job interview portfolio.
    - Problem-solving logs
 
 3. **Regular Updates Required**
-   - After each contribution: Update `contribution-tracking.md`
-   - After learning sessions: Update `learning-journal.md`
-   - Weekly: Write retrospective in `retrospective-template.md`
-   - When stuck: Document in `debugging-log.md`
+   - After each contribution: Update `기여-활동-트래킹.md`
+   - After learning sessions: Update `학습-일지.md`
+   - Weekly: Write retrospective in `회고-템플릿.md`
+   - When stuck: Document in `디버깅-로그.md`
 
 ### Portfolio Document Templates
 

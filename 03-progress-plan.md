@@ -70,9 +70,9 @@
    - [ ] 머지 완료
 
 4. **문서화** (2/9 ~ 2/10)
-   - [ ] portfolio/project-selection/ 업데이트
-   - [ ] portfolio/contributions/ 첫 PR 기록
-   - [ ] portfolio/retrospectives/ 주간 회고 작성
+   - [ ] portfolio/프로젝트-선정/ 업데이트
+   - [ ] portfolio/기여-활동/ 첫 PR 기록
+   - [ ] portfolio/회고/ 주간 회고 작성
 
 **목표 프로젝트 후보**:
 1. `spring-guides/gs-spring-boot` - README 오타 수정
@@ -110,9 +110,9 @@
    - [ ] PR 제출
 
 4. **문서화** (3/9 ~ 3/10)
-   - [ ] portfolio/contributions/ 업데이트
-   - [ ] portfolio/learnings/ 테스트 작성 학습 정리
-   - [ ] portfolio/debugging-logs/ 문제 해결 기록
+   - [ ] portfolio/기여-활동/ 업데이트
+   - [ ] portfolio/학습-일지/ 테스트 작성 학습 정리
+   - [ ] portfolio/디버깅-로그/ 문제 해결 기록
 
 **목표 프로젝트**:
 - `spring-projects/spring-petclinic` - UI/UX 개선 또는 버그 수정
@@ -147,9 +147,9 @@
    - [ ] PR 제출
 
 4. **문서화** (4/6 ~ 4/7)
-   - [ ] portfolio/contributions/ 업데이트
-   - [ ] portfolio/learnings/ Spring Boot 심화 학습 정리
-   - [ ] portfolio/retrospectives/ 월간 회고
+   - [ ] portfolio/기여-활동/ 업데이트
+   - [ ] portfolio/학습-일지/ Spring Boot 심화 학습 정리
+   - [ ] portfolio/회고/ 월간 회고
 
 **목표 프로젝트 후보**:
 - `spring-projects/spring-data-examples` - 예제 추가
@@ -200,7 +200,7 @@
 #### 구체적 계획
 1. **포트폴리오 정리** (5/1 ~ 5/3)
    - [ ] GitHub 프로필 최적화
-   - [ ] portfolio/interview-prep/ 완성
+   - [ ] portfolio/면접-준비/ 완성
    - [ ] 1분 자기소개 작성
 
 2. **면접 연습** (5/3 ~ 5/7)
@@ -376,7 +376,7 @@
 3. 다음 주 목표 설정
 
 ### 문제 발생 시
-1. debugging-logs/에 즉시 기록
+1. 디버깅-로그/에 즉시 기록
 2. 해결책 검색 및 적용
 3. 해결 후 회고에 교훈 정리
 
