@@ -117,7 +117,8 @@ fix/<error-description>
     ├── 프로젝트-선정/                 # Project selection reasoning
     │   └── 스프링부트-오픈소스-선정-이유.md
     ├── 기여-활동/                     # Contribution tracking
-    │   └── 기여-활동-트래킹.md
+    │   ├── 기여-활동-트래킹.md
+    │   └── 기여-상세-기록.md
     ├── 학습-일지/                     # Technical learning journal
     │   └── 학습-일지.md
     ├── 회고/                          # Development retrospectives
@@ -158,15 +159,49 @@ This repository serves as a backend developer job interview portfolio.
 
 2. **Contribution Tracking Structure**
    - Project selection rationale
-   - Detailed contribution records (PR links, issues)
+   - Overview dashboard for project-level follow-up
+   - Detailed contribution archive (PR links, issues, code/test/review details)
    - Technical growth documentation
    - Problem-solving logs
 
 3. **Regular Updates Required**
-   - After each contribution: Update `기여-활동-트래킹.md`
+   - After each contribution event: Update `기여-활동-트래킹.md` and `기여-상세-기록.md`
    - After learning sessions: Update `학습-일지.md`
    - Weekly: Write retrospective in `회고-템플릿.md`
    - When stuck: Document in `디버깅-로그.md`
+
+### Dual Contribution Documents
+
+Always maintain the two contribution documents together:
+
+1. `portfolio/기여-활동/기여-활동-트래킹.md`
+   - Purpose: project-level dashboard and follow-up board
+   - Must contain: current counts, project-by-project status, open PR queue, recent status changes, next actions
+   - Update timing: immediately after issue claim, PR creation, maintainer feedback, follow-up comment, merge, close, rejection, or blocker resolution
+
+2. `portfolio/기여-활동/기여-상세-기록.md`
+   - Purpose: PR-by-PR detailed archive
+   - Must contain: issue link, PR link, what/why/how, code or test summary, feedback, follow-up, interview-ready one-line summary
+   - Update timing: when a new contribution starts, when implementation direction changes, when meaningful review feedback arrives, and when the PR outcome is finalized
+
+### Contribution Update Rules
+
+When working on any contribution-related task, apply these rules:
+
+1. If a new issue is claimed:
+   - Add the project/issue status to `기여-활동-트래킹.md`
+   - Create or prepare the matching entry in `기여-상세-기록.md`
+2. If a PR is opened:
+   - Update counts and open PR lists in `기여-활동-트래킹.md`
+   - Add a full PR entry in `기여-상세-기록.md` on the same day
+3. If review or maintainer feedback arrives:
+   - Update the current status and next action in `기여-활동-트래킹.md`
+   - Record the feedback and the planned/implemented response in `기여-상세-기록.md`
+4. If a PR is merged, closed, or rejected:
+   - Move the PR to the correct status bucket in `기여-활동-트래킹.md`
+   - Finalize the outcome, lesson learned, and interview summary in `기여-상세-기록.md`
+5. If public summary numbers change materially:
+   - Consider syncing `README.md` as the public-facing summary
 
 ### Portfolio Document Templates
 
