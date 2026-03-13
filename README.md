@@ -32,7 +32,7 @@
 
 | 총 PR | ✅ 머지 | ⏳ 리뷰 대기 | ⚪ 거부·종료 |
 | --- | --- | --- | --- |
-| 19개 | 2개 | 11개 | 6개 |
+| 19개 | 3개 | 10개 | 6개 |
 
 ### 🔎 지금 확인할 PR (리뷰 대기)
 - [querydsl#3933](https://github.com/querydsl/querydsl/pull/3933)
@@ -43,7 +43,6 @@
 - [spring-batch#5317](https://github.com/spring-projects/spring-batch/pull/5317)
 - [spring-batch#5318](https://github.com/spring-projects/spring-batch/pull/5318)
 - [spring-batch#5339](https://github.com/spring-projects/spring-batch/pull/5339)
-- [spring-boot#49582](https://github.com/spring-projects/spring-boot/pull/49582)
 - [spring-security#18850](https://github.com/spring-projects/spring-security/pull/18850)
 - [spring-security#18889](https://github.com/spring-projects/spring-security/pull/18889)
 
@@ -75,7 +74,7 @@
 | 15 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5318](https://github.com/spring-projects/spring-batch/pull/5318) |
 | 16 | spring-batch | 기능 추가 | ⏳ 리뷰 대기 | [#5339](https://github.com/spring-projects/spring-batch/pull/5339) |
 | 17 | spring-security | 버그 수정 | ⏳ 리뷰 대기 | [#18850](https://github.com/spring-projects/spring-security/pull/18850) |
-| 18 | spring-boot | 버그 수정 | ⏳ 리뷰 대기 | [#49582](https://github.com/spring-projects/spring-boot/pull/49582) |
+| 18 | spring-boot | 버그 수정 | ✅ 머지 | [#49582](https://github.com/spring-projects/spring-boot/pull/49582) |
 | 19 | spring-security | 버그 수정 | ⏳ 리뷰 대기 | [#18889](https://github.com/spring-projects/spring-security/pull/18889) |
 
 ---
