@@ -203,6 +203,20 @@ When working on any contribution-related task, apply these rules:
 5. If public summary numbers change materially:
    - Consider syncing `README.md` as the public-facing summary
 
+### Snapshot-Based Sync Workflow
+
+Use the PR snapshot script as the default starting point for follow-up work:
+
+1. Run `./scripts/pr-status-snapshot.sh README.md > /tmp/pr-status-snapshot.md`
+2. Compare the snapshot summary with `README.md` and `portfolio/기여-활동/기여-활동-트래킹.md`
+3. If any PR status, update time, or bucket has changed:
+   - Update the dashboard table and status change log in `기여-활동-트래킹.md` in the same turn
+4. If the changed PR includes review feedback, implementation updates, CI blockers, or resolution details:
+   - Update `기여-상세-기록.md` in the same turn
+5. If totals or public-facing status groups changed:
+   - Sync the relevant numbers and links in `README.md` before ending the task
+6. Do not leave a confirmed snapshot change unreflected in the tracking documents
+
 ### Portfolio Document Templates
 
 #### Project Selection Document

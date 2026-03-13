@@ -46,9 +46,9 @@
 - [spring-security#18850](https://github.com/spring-projects/spring-security/pull/18850)
 
 ### 🔁 운영 루틴 (매일 10분)
-- 상태 스냅샷 생성: `./scripts/pr-status-snapshot.sh`
-- 상태 변경 PR은 `portfolio/기여-활동/기여-활동-트래킹.md`에 즉시 반영
-- 의미 있는 구현/리뷰 변화는 `portfolio/기여-활동/기여-상세-기록.md`에도 함께 반영
+- 상태 스냅샷 생성: `./scripts/pr-status-snapshot.sh README.md > /tmp/pr-status-snapshot.md`
+- 스냅샷에서 상태가 바뀐 PR은 같은 작업 턴에 `portfolio/기여-활동/기여-활동-트래킹.md`에 반영
+- 구현, 리뷰, CI, 해결 방향이 바뀐 PR은 `portfolio/기여-활동/기여-상세-기록.md`도 같은 턴에 반영
 - 리뷰 대기 7일 이상이면 영어 follow-up 코멘트 1회 작성
 - 변경이 있으면 README의 `한눈에 보기` 수치 갱신
 
