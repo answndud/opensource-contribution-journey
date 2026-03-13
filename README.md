@@ -21,7 +21,7 @@
 | 유형 | 목표 | 현재 |
 | ---- | ---- | ---- |
 | 문서 기여 | 3개 | 6개 |
-| 버그 수정 | 4개 | 9개 |
+| 버그 수정 | 4개 | 10개 |
 | 기능 추가 | 3개 | 2개 |
 
 ---
@@ -32,7 +32,7 @@
 
 | 총 PR | ✅ 머지 | ⏳ 리뷰 대기 | ⚪ 거부·종료 |
 | --- | --- | --- | --- |
-| 17개 | 2개 | 9개 | 6개 |
+| 18개 | 2개 | 10개 | 6개 |
 
 ### 🔎 지금 확인할 PR (리뷰 대기)
 - [querydsl#3933](https://github.com/querydsl/querydsl/pull/3933)
@@ -43,6 +43,7 @@
 - [spring-batch#5317](https://github.com/spring-projects/spring-batch/pull/5317)
 - [spring-batch#5318](https://github.com/spring-projects/spring-batch/pull/5318)
 - [spring-batch#5339](https://github.com/spring-projects/spring-batch/pull/5339)
+- [spring-boot#49582](https://github.com/spring-projects/spring-boot/pull/49582)
 - [spring-security#18850](https://github.com/spring-projects/spring-security/pull/18850)
 
 ### 🔁 운영 루틴 (매일 10분)
@@ -73,6 +74,7 @@
 | 15 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5318](https://github.com/spring-projects/spring-batch/pull/5318) |
 | 16 | spring-batch | 기능 추가 | ⏳ 리뷰 대기 | [#5339](https://github.com/spring-projects/spring-batch/pull/5339) |
 | 17 | spring-security | 버그 수정 | ⏳ 리뷰 대기 | [#18850](https://github.com/spring-projects/spring-security/pull/18850) |
+| 18 | spring-boot | 버그 수정 | ⏳ 리뷰 대기 | [#49582](https://github.com/spring-projects/spring-boot/pull/49582) |
 
 ---
 
