@@ -203,6 +203,26 @@ When working on any contribution-related task, apply these rules:
 5. If public summary numbers change materially:
    - Consider syncing `README.md` as the public-facing summary
 
+### External OSS Readiness Gate
+
+Before implementing or opening a PR for an external open source issue, pass this gate first:
+
+1. **Issue readiness must be checked explicitly**
+   - Confirm issue state, labels, assignee, latest maintainer comment, and whether another PR already exists
+   - Record that judgment in working notes before coding
+2. **Assigned issue rule**
+   - If the issue is assigned to a maintainer, core team member, or another contributor, do not open a PR unless they explicitly invite outside contribution
+3. **Triage-first rule**
+   - If maintainers have not yet confirmed that the report is a valid bug or accepted enhancement, do not implement or submit a fix first
+   - In that case, leave at most one short comment asking whether a contribution would be welcome, then wait
+4. **Discussion-first categories**
+   - For Spring Security, authentication, authorization, crypto, protocol/spec interpretation, and behavior changes in core framework logic, explicit maintainer approval is required before coding
+5. **Follow-up boundary**
+   - Do not send follow-up comments on a PR that should not have been opened yet
+   - Do not ping while the issue is still under maintainer evaluation unless a maintainer has already requested changes or invited a PR
+6. **Process failure recovery**
+   - If a PR is closed for process reasons (not needed, duplicate, assigned issue, team not ready, wrong venue), write a retrospective and update `AGENTS.md` before attempting a similar issue again
+
 ### Snapshot-Based Sync Workflow
 
 Use the PR snapshot script as the default starting point for follow-up work:
