@@ -12,7 +12,7 @@
 ## 🎯 프로젝트 목표
 
 **기간**: 2025년 2월 ~ 진행 중  
-**기준일**: 2026년 3월 18일  
+**기준일**: 2026년 3월 19일  
 **목표**: Spring Boot 생태계에 **10개 이상**의 기여 활동  
 **최종 목적**: 백엔드 개발자 취업 및 포트폴리오 구축
 
@@ -21,7 +21,7 @@
 | 유형 | 목표 | 현재 |
 | ---- | ---- | ---- |
 | 문서 기여 | 3개 | 6개 |
-| 버그 수정 | 4개 | 11개 |
+| 버그 수정 | 4개 | 12개 |
 | 기능 추가 | 3개 | 3개 |
 
 ---
@@ -32,7 +32,7 @@
 
 | 총 PR | ✅ 머지 | ⏳ 리뷰 대기 | ⚪ 거부·종료 |
 | --- | --- | --- | --- |
-| 20개 | 3개 | 8개 | 9개 |
+| 21개 | 3개 | 9개 | 9개 |
 
 ### 🔎 지금 확인할 PR (리뷰 대기)
 - [querydsl#3933](https://github.com/querydsl/querydsl/pull/3933)
@@ -41,6 +41,7 @@
 - [spring-batch#5317](https://github.com/spring-projects/spring-batch/pull/5317)
 - [spring-batch#5318](https://github.com/spring-projects/spring-batch/pull/5318)
 - [spring-batch#5339](https://github.com/spring-projects/spring-batch/pull/5339)
+- [spring-batch#5351](https://github.com/spring-projects/spring-batch/pull/5351)
 - [spring-security#18850](https://github.com/spring-projects/spring-security/pull/18850)
 - [spring-security#18889](https://github.com/spring-projects/spring-security/pull/18889)
 
@@ -75,6 +76,7 @@
 | 18 | spring-boot | 버그 수정 | ✅ 머지 | [#49582](https://github.com/spring-projects/spring-boot/pull/49582) |
 | 19 | spring-security | 버그 수정 | ⏳ 리뷰 대기 | [#18889](https://github.com/spring-projects/spring-security/pull/18889) |
 | 20 | spring-boot | 기능 추가 | ⚪ 종료(이미 assign된 이슈) | [#49594](https://github.com/spring-projects/spring-boot/pull/49594) |
+| 21 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5351](https://github.com/spring-projects/spring-batch/pull/5351) |
 
 ---
 
@@ -127,4 +129,4 @@ npm run lint:md
 
 ---
 
-*마지막 업데이트: 2026년 3월 18일*
+*마지막 업데이트: 2026년 3월 19일*
