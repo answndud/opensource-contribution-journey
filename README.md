@@ -12,7 +12,7 @@
 ## 🎯 프로젝트 목표
 
 **기간**: 2025년 2월 ~ 진행 중  
-**기준일**: 2026년 3월 16일  
+**기준일**: 2026년 3월 18일  
 **목표**: Spring Boot 생태계에 **10개 이상**의 기여 활동  
 **최종 목적**: 백엔드 개발자 취업 및 포트폴리오 구축
 
@@ -32,13 +32,11 @@
 
 | 총 PR | ✅ 머지 | ⏳ 리뷰 대기 | ⚪ 거부·종료 |
 | --- | --- | --- | --- |
-| 20개 | 3개 | 10개 | 7개 |
+| 20개 | 3개 | 8개 | 9개 |
 
 ### 🔎 지금 확인할 PR (리뷰 대기)
 - [querydsl#3933](https://github.com/querydsl/querydsl/pull/3933)
 - [querydsl#3934](https://github.com/querydsl/querydsl/pull/3934)
-- [spring-batch#5313](https://github.com/spring-projects/spring-batch/pull/5313)
-- [spring-batch#5315](https://github.com/spring-projects/spring-batch/pull/5315)
 - [spring-batch#5316](https://github.com/spring-projects/spring-batch/pull/5316)
 - [spring-batch#5317](https://github.com/spring-projects/spring-batch/pull/5317)
 - [spring-batch#5318](https://github.com/spring-projects/spring-batch/pull/5318)
@@ -67,8 +65,8 @@
 | 8 | querydsl | 버그 수정 | ⏳ 리뷰 대기 | [#3934](https://github.com/querydsl/querydsl/pull/3934) |
 | 9 | apache/iceberg | 문서 | ✅ 머지 | [#15309](https://github.com/apache/iceberg/pull/15309) |
 | 10 | spring-batch | 버그 수정 | ⚪ 철회(중복 이슈) | [#5309](https://github.com/spring-projects/spring-batch/pull/5309) |
-| 11 | spring-batch | 문서 | ⏳ 리뷰 대기 | [#5313](https://github.com/spring-projects/spring-batch/pull/5313) |
-| 12 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5315](https://github.com/spring-projects/spring-batch/pull/5315) |
+| 11 | spring-batch | 문서 | ⚪ 종료(SNAPSHOT docs 방향 불가) | [#5313](https://github.com/spring-projects/spring-batch/pull/5313) |
+| 12 | spring-batch | 버그 수정 | ⚪ 종료(선행 PR #5296 우선) | [#5315](https://github.com/spring-projects/spring-batch/pull/5315) |
 | 13 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5316](https://github.com/spring-projects/spring-batch/pull/5316) |
 | 14 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5317](https://github.com/spring-projects/spring-batch/pull/5317) |
 | 15 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5318](https://github.com/spring-projects/spring-batch/pull/5318) |
@@ -129,4 +127,4 @@ npm run lint:md
 
 ---
 
-*마지막 업데이트: 2026년 3월 16일*
+*마지막 업데이트: 2026년 3월 18일*
