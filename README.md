@@ -32,17 +32,15 @@
 
 | 총 PR | ✅ 머지 | ⏳ 리뷰 대기 | ⚪ 거부·종료 |
 | --- | --- | --- | --- |
-| 21개 | 3개 | 8개 | 10개 |
+| 21개 | 3개 | 6개 | 12개 |
 
 ### 🔎 지금 확인할 PR (리뷰 대기)
 - [querydsl#3933](https://github.com/querydsl/querydsl/pull/3933)
 - [querydsl#3934](https://github.com/querydsl/querydsl/pull/3934)
 - [spring-batch#5316](https://github.com/spring-projects/spring-batch/pull/5316)
-- [spring-batch#5317](https://github.com/spring-projects/spring-batch/pull/5317)
 - [spring-batch#5318](https://github.com/spring-projects/spring-batch/pull/5318)
 - [spring-batch#5339](https://github.com/spring-projects/spring-batch/pull/5339)
 - [spring-batch#5351](https://github.com/spring-projects/spring-batch/pull/5351)
-- [spring-security#18889](https://github.com/spring-projects/spring-security/pull/18889)
 
 ### 🔁 운영 루틴 (매일 10분)
 - 상태 스냅샷 생성: `./scripts/pr-status-snapshot.sh README.md > /tmp/pr-status-snapshot.md`
@@ -68,12 +66,12 @@
 | 11 | spring-batch | 문서 | ⚪ 종료(SNAPSHOT docs 방향 불가) | [#5313](https://github.com/spring-projects/spring-batch/pull/5313) |
 | 12 | spring-batch | 버그 수정 | ⚪ 종료(선행 PR #5296 우선) | [#5315](https://github.com/spring-projects/spring-batch/pull/5315) |
 | 13 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5316](https://github.com/spring-projects/spring-batch/pull/5316) |
-| 14 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5317](https://github.com/spring-projects/spring-batch/pull/5317) |
+| 14 | spring-batch | 버그 수정 | ⚪ 종료(문서 가이드 방향으로 자진 종료) | [#5317](https://github.com/spring-projects/spring-batch/pull/5317) |
 | 15 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5318](https://github.com/spring-projects/spring-batch/pull/5318) |
 | 16 | spring-batch | 기능 추가 | ⏳ 리뷰 대기 | [#5339](https://github.com/spring-projects/spring-batch/pull/5339) |
 | 17 | spring-security | 버그 수정 | ⚪ 종료(팀 검토 결과 fix 불필요) | [#18850](https://github.com/spring-projects/spring-security/pull/18850) |
 | 18 | spring-boot | 버그 수정 | ✅ 머지 | [#49582](https://github.com/spring-projects/spring-boot/pull/49582) |
-| 19 | spring-security | 버그 수정 | ⏳ 리뷰 대기 | [#18889](https://github.com/spring-projects/spring-security/pull/18889) |
+| 19 | spring-security | 버그 수정 | ⚪ 종료(triage 전 PR로 자진 종료) | [#18889](https://github.com/spring-projects/spring-security/pull/18889) |
 | 20 | spring-boot | 기능 추가 | ⚪ 종료(이미 assign된 이슈) | [#49594](https://github.com/spring-projects/spring-boot/pull/49594) |
 | 21 | spring-batch | 버그 수정 | ⏳ 리뷰 대기 | [#5351](https://github.com/spring-projects/spring-batch/pull/5351) |
 
