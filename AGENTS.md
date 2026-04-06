@@ -203,6 +203,27 @@ When working on any contribution-related task, apply these rules:
 5. If public summary numbers change materially:
    - Consider syncing `README.md` as the public-facing summary
 
+### Workspace Cleanup Rules
+
+When a contribution workspace is no longer active, clean it in the same turn:
+
+1. If a PR is merged, closed, rejected, withdrawn, marked duplicate, or determined unnecessary:
+   - Update `기여-활동-트래킹.md`, `기여-상세-기록.md`, and `README.md` first when applicable
+   - Then delete the matching local workspace unless there is a clear short-term reason to keep it
+2. Keep a finished workspace only if one of these is true:
+   - The PR is still open and maintainer follow-up is realistically expected
+   - The exact local state is still needed for an immediate retrospective, review response, or before/after evidence capture
+   - A replacement PR or narrowed follow-up will be opened from the same workspace immediately
+3. If a finished workspace is kept temporarily:
+   - Record why it is being kept and when it should be rechecked
+4. Cleanup scope:
+   - For finished projects, delete the whole local workspace
+   - For active projects, keep the repo but remove generated artifacts such as `.gradle/`, `build/`, `target/`, `node_modules/`, `.venv/`, and IDE metadata
+5. Worktree rule:
+   - If the workspace was created with `git worktree`, remove the child worktree with `git worktree remove` before deleting the parent repository
+   - Never delete a repository that still owns active worktrees
+6. Do not end a follow-up or status-sync task while merged/closed workspaces and obvious build caches are still left behind locally
+
 ### External OSS Readiness Gate
 
 Before implementing or opening a PR for an external open source issue, pass this gate first:
@@ -236,6 +257,8 @@ Use the PR snapshot script as the default starting point for follow-up work:
 5. If totals or public-facing status groups changed:
    - Sync the relevant numbers and links in `README.md` before ending the task
 6. Do not leave a confirmed snapshot change unreflected in the tracking documents
+7. If the snapshot confirms that a PR moved to merged/closed/rejected state:
+   - Apply the workspace cleanup rules in the same turn and remove any finished local workspace or stale build cache that is no longer needed
 
 ### Portfolio Document Templates
 
