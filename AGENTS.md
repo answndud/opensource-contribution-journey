@@ -103,11 +103,14 @@ fix/<error-description>
 /
 ├── README.md                          # Project overview (public)
 ├── AGENTS.md                          # This file
-├── 01-guide-open-source-contribution.md # Main contribution guide
-├── 02-guide-spring-boot-projects.md   # Project recommendations
-├── 03-progress-plan.md                # Roadmap and timeline
-├── 04-local-setup.md                  # Local setup notes
-├── 05-pr-168-guide.md                 # First PR playbook
+├── docs/
+│   ├── guides/
+│   │   ├── open-source-contribution-guide.md # Main contribution guide
+│   │   ├── spring-project-recommendations.md # Project recommendations
+│   │   └── local-setup.md                    # Local setup notes
+│   └── archive/
+│       ├── progress-plan.md                  # Roadmap and historical timeline
+│       └── first-pr-playbook.md              # First PR playbook
 ├── 01-spring-guides/                  # Spring Guides workspaces
 │   ├── 01-getting-started-guides-issues/
 │   └── 02-gs-spring-boot-reference-issue-195/

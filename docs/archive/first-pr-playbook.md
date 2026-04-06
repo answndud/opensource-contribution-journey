@@ -71,7 +71,7 @@ Fixes spring-guides/getting-started-guides#168
    - `portfolio/기여-활동/기여-상세-기록.md`에 PR 상세 기록 추가
    - `portfolio/회고/회고-템플릿.md`에 회고 작성
 
-3. **03-progress-plan.md 업데이트**:
+3. **`docs/archive/progress-plan.md` 업데이트**:
    - 진행 상황 기록
 
 4. **CI 확인**:

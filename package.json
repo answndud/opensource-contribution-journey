@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:md": "markdownlint --config .markdownlint.json *.md",
-    "lint:links": "markdown-link-check --config .markdown-link-check.json *.md",
-    "lint:links:all": "markdown-link-check *.md",
-    "format": "prettier --write *.md",
-    "validate": "markdownlint --config .markdownlint.json *.md && markdown-link-check --config .markdown-link-check.json *.md",
-    "validate:full": "markdownlint --config .markdownlint.json *.md && markdown-link-check *.md"
+    "lint:md": "find . -name '*.md' -not -path './node_modules/*' -not -path './portfolio/*' -not -path './02-spring-projects/*' -print0 | xargs -0 ./node_modules/.bin/markdownlint --config .markdownlint.json",
+    "lint:links": "find . -name '*.md' -not -path './node_modules/*' -not -path './portfolio/*' -not -path './02-spring-projects/*' -print0 | xargs -0 ./node_modules/.bin/markdown-link-check --config .markdown-link-check.json",
+    "lint:links:all": "find . -name '*.md' -not -path './node_modules/*' -not -path './portfolio/*' -not -path './02-spring-projects/*' -print0 | xargs -0 ./node_modules/.bin/markdown-link-check",
+    "format": "find . -name '*.md' -not -path './node_modules/*' -not -path './portfolio/*' -not -path './02-spring-projects/*' -print0 | xargs -0 ./node_modules/.bin/prettier --write",
+    "validate": "npm run lint:md && npm run lint:links",
+    "validate:full": "npm run lint:md && npm run lint:links:all"
   },
   "keywords": [],
   "author": "",

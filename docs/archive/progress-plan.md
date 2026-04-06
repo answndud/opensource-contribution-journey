@@ -10,8 +10,8 @@
 ## 📋 진행 현황
 
 ### ✅ 완료된 작업
-- [x] 프로젝트 가이드 문서 작성 (01-guide-open-source-contribution.md)
-- [x] Spring Boot 프로젝트 추천 목록 작성 (02-guide-spring-boot-projects.md)
+- [x] 프로젝트 가이드 문서 작성 (`docs/guides/open-source-contribution-guide.md`)
+- [x] Spring Boot 프로젝트 추천 목록 작성 (`docs/guides/spring-project-recommendations.md`)
 - [x] AGENTS.md 작성 (AI 가이드)
 - [x] 개발 환경 설정 (Git, GitHub CLI, markdown tools, SDKMAN, MCP)
 - [x] 포트폴리오 문서 템플릿 작성 (portfolio/)
