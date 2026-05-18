@@ -117,6 +117,36 @@
 
 ---
 
+## 새 PR 착수 전 Readiness Checklist
+
+새로운 외부 OSS 이슈를 볼 때는 아래 순서를 통과한 뒤에만 구현합니다.
+
+| 단계 | 확인 질문 | 통과 기준 | 막히면 할 일 |
+| ---- | --------- | --------- | ------------ |
+| 1. 이슈 상태 | 이슈가 아직 open인가? | open 상태이고 최근 논의가 fix 방향과 충돌하지 않음 | closed/duplicate이면 작업하지 않음 |
+| 2. 소유권 | assignee가 있는가? | assignee가 없거나 maintainer가 외부 기여를 명시적으로 허용함 | assignee가 있으면 PR을 열지 않음 |
+| 3. triage | maintainer가 문제를 인정했는가? | bug/task/ideal-for-contribution 라벨 또는 maintainer 확인 댓글이 있음 | 짧게 contribution welcome 여부만 묻고 대기 |
+| 4. 중복 작업 | 이미 open PR이 있는가? | 같은 문제를 해결하는 open PR이 없음 | 기존 PR을 추적하고 새 PR은 만들지 않음 |
+| 5. 변경 범위 | 최소 수정으로 설명 가능한가? | 변경 파일, 테스트, 동작 변화가 한 문단으로 설명됨 | scope를 줄이거나 discussion-first로 전환 |
+| 6. 검증 | 어떤 테스트가 직접 리스크를 검증하는가? | targeted test 또는 문서 검증 명령이 명확함 | 테스트 경계를 먼저 정리 |
+| 7. 민감 영역 | security/spec/core behavior인가? | 민감 영역이 아니거나 maintainer 승인이 있음 | 구현보다 질문/논의를 먼저 진행 |
+
+이 체크리스트를 통과하지 못한 이슈는 바로 clone하지 않습니다. 로컬 저장소 용량을 아끼기 위해, contribution welcome 신호가 있거나 구현 가능성이 높을 때만 얕은 clone으로 작업합니다.
+
+---
+
+## 현재 기준으로 다시 본 최근 후보
+
+`spring-guides/gs-graphql-server#22`는 assignee와 open PR이 없고 문제 자체는 작지만, maintainer triage나 label이 아직 없습니다.
+
+따라서 바로 구현하지 않고 아래 댓글로 contribution welcome 여부만 확인했습니다.
+
+- [spring-guides/gs-graphql-server#22 확인 댓글](https://github.com/spring-guides/gs-graphql-server/issues/22#issuecomment-4474885513)
+
+이 판단은 과거에 triage 전 PR을 먼저 열어 종료된 경험을 반영한 것입니다.
+
+---
+
 ## 함께 보면 좋은 문서
 
 - [Spring Guides 사례: gs-rest-service PR #175](../case-studies/gs-rest-service-175.md)
@@ -125,4 +155,4 @@
 
 ---
 
-_마지막 업데이트: 2026-04-06_
+_마지막 업데이트: 2026-05-18_

@@ -154,7 +154,7 @@
 - [대표 머지 사례 3건](docs/case-studies/README.md)
 - [백엔드 오픈소스 포트폴리오 요약](docs/portfolio/backend-open-source-portfolio.md)
 - [면접용 대표 답변 정리](docs/portfolio/interview-stories.md)
-- [거절·종료된 PR에서 배운 점](docs/lessons/rejected-and-closed-prs.md)
+- [거절·종료된 PR에서 배운 점과 readiness checklist](docs/lessons/rejected-and-closed-prs.md)
 - [오픈소스 기여 가이드](docs/guides/open-source-contribution-guide.md)
 - [Spring 프로젝트 추천 정리](docs/guides/spring-project-recommendations.md)
 - [로컬 환경 정리](docs/guides/local-setup.md)
