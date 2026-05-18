@@ -30,6 +30,32 @@
 
 ---
 
+## 설계 판단
+
+이 PR에서 가장 중요한 판단은 "어디를 고치지 않을 것인가"였습니다.
+
+| 선택지 | 장점 | 문제점 | 판단 |
+| ------ | ---- | ------ | ---- |
+| 공통 missing bean 분석 로직 수정 | 더 넓은 케이스를 한 번에 다룰 수 있음 | 다른 auto-configuration 실패까지 오탐할 수 있음 | 선택하지 않음 |
+| `MailSender` bean 생성 조건 변경 | 사용자가 설정 없이도 bean을 얻을 수 있음 | Spring Boot auto-configuration 계약 자체가 바뀜 | 선택하지 않음 |
+| mail 전용 `FailureAnalyzer` 추가 | 문제 범위가 `spring-boot-mail` 안에 머무름 | mail 케이스만 해결함 | 선택 |
+
+선택한 방식은 기능 동작을 바꾸지 않고 실패 원인 설명만 정확하게 만드는 접근이었습니다. 그래서 기존 사용자에게 미치는 영향이 작고, reviewer가 변경 범위를 빠르게 확인할 수 있었습니다.
+
+---
+
+## 테스트 경계
+
+테스트는 "언제 새 failure analysis가 나와야 하는가"와 "언제 나오면 안 되는가"를 나누는 데 집중했습니다.
+
+- `spring.mail.host`가 없고 `spring.mail.jndi-name`도 없으면 mail 설정 누락을 안내합니다.
+- 둘 중 하나가 있으면 mail sender 생성 조건을 만족할 수 있으므로 analyzer가 과하게 개입하지 않습니다.
+- bean을 직접 만드는 해결책을 안내하기보다, 실제 필요한 설정 키를 알려주는 메시지를 검증합니다.
+
+이 경계가 중요했던 이유는 failure analyzer가 너무 넓게 동작하면 다른 missing bean 문제까지 잘못 설명할 수 있기 때문입니다.
+
+---
+
 ## 검증
 
 최초에는 로컬 기본 JDK 21 환경 때문에 Spring Boot의 Java 25+ toolchain 요구 사항을 충족하지 못해 검증이 막혔습니다.
@@ -62,6 +88,26 @@ export PATH="$JAVA_HOME/bin:$PATH"
 
 ---
 
+## 면접에서 받을 수 있는 꼬리질문
+
+### 왜 공통 `NoSuchBeanDefinitionFailureAnalyzer`를 고치지 않았나요?
+
+문제가 모든 missing bean에 있는 것이 아니라 `spring-boot-mail`의 auto-configuration 조건과 failure message 사이의 불일치에 있었기 때문입니다. 공통 analyzer를 바꾸면 다른 모듈의 실패 분석까지 영향을 받을 수 있어, mail 모듈 내부의 전용 analyzer가 더 작은 변경 범위라고 판단했습니다.
+
+### 왜 설정 키를 안내하는 방식이 더 낫다고 봤나요?
+
+사용자가 bean을 직접 정의해야 하는 상황이 아니라, `MailSenderAutoConfiguration`이 활성화되기 위한 설정이 빠진 상황이었습니다. 따라서 "bean을 직접 만들라"보다 `spring.mail.host` 또는 `spring.mail.jndi-name` 설정을 확인하라는 안내가 실제 원인에 더 가깝습니다.
+
+### 이 변경의 리스크는 무엇이었나요?
+
+가장 큰 리스크는 analyzer가 너무 넓게 동작해 다른 missing bean 상황을 잘못 설명하는 것이었습니다. 그래서 mail 관련 클래스와 설정 조건에만 반응하도록 범위를 제한하고, 설정이 있는 경우에는 새 analyzer가 개입하지 않는 경계를 테스트했습니다.
+
+### 실무에서도 같은 판단을 적용한다면?
+
+공통 예외 처리나 공통 진단 로직을 바로 수정하기 전에, 문제가 특정 모듈의 조건 불일치인지 먼저 확인하겠습니다. 영향 범위를 줄일 수 있다면 공통 로직보다 모듈 전용 해결책을 우선 검토하겠습니다.
+
+---
+
 ## 학습한 내용
 
 - 백엔드 문제 해결은 표면 에러보다 실제 생성 조건을 읽는 것에서 시작합니다.
@@ -82,6 +128,8 @@ export PATH="$JAVA_HOME/bin:$PATH"
 
 이 사례는 제가 가장 "실무형"으로 문제를 좁히고 검증한 PR입니다.
 
+면접에서는 이 사례를 "auto-configuration 조건을 읽고, 공통 로직을 건드리지 않는 작은 변경으로 사용자-facing 진단 품질을 개선한 경험"으로 설명할 수 있습니다.
+
 ---
 
 ## 링크
@@ -91,4 +139,4 @@ export PATH="$JAVA_HOME/bin:$PATH"
 
 ---
 
-_마지막 업데이트: 2026-04-06_
+_마지막 업데이트: 2026-05-18_
