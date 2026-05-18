@@ -64,6 +64,21 @@ Spring Data Redis `#3361`에서는 기존 converter를 제거하지 않고 depre
 
 ---
 
+## 리뷰 대기 PR 운영 방식
+
+리뷰 대기 PR은 모두 같은 우선순위로 보지 않습니다. maintainer 반응 가능성, triage 상태, 프로젝트 활동성을 기준으로 시간을 더 쓸 PR과 기다리기만 할 PR을 나눕니다.
+
+| 분류 | PR | 운영 방식 | 이유 |
+| ---- | -- | --------- | ---- |
+| 일반 대기 | [spring-data-redis#3361](https://github.com/spring-projects/spring-data-redis/pull/3361) | maintainer 리뷰 대기 | maintainer가 issue에서 deprecate 방향을 허용했고 open PR이 없었습니다. |
+| 일반 대기 | [spring-batch#5318](https://github.com/spring-projects/spring-batch/pull/5318), [spring-batch#5339](https://github.com/spring-projects/spring-batch/pull/5339) | 추가 구현 없이 반응 대기 | 코드/스키마 변경 PR이라 maintainer 판단이 필요합니다. |
+| follow-up 금지 | [spring-batch#5316](https://github.com/spring-projects/spring-batch/pull/5316), [spring-batch#5351](https://github.com/spring-projects/spring-batch/pull/5351) | 먼저 ping하지 않음 | triage 전 PR 성격이 있어 추가 압박이 리스크를 키울 수 있습니다. |
+| 장기 보류 | [querydsl#3933](https://github.com/querydsl/querydsl/pull/3933), [querydsl#3934](https://github.com/querydsl/querydsl/pull/3934) | 상태만 모니터링 | maintainer 반응이 장기 지연되어 새 작업 시간을 투입하지 않습니다. |
+
+이 운영 방식의 목적은 "열린 PR을 많이 쌓는 것"이 아니라, 어떤 PR에 더 시간을 쓰면 안 되는지도 판단하는 것입니다.
+
+---
+
 ## 면접에서 강조할 메시지
 
 > 저는 오픈소스를 GitHub 잔디 채우기가 아니라 실무형 코드 리뷰 훈련으로 사용했습니다. 특히 Spring Boot PR이 머지된 뒤부터는 문제를 크게 풀기보다, 기존 설계 패턴 안에서 작은 변경과 테스트로 설득하는 방식이 더 효과적이라는 점을 체득했습니다.

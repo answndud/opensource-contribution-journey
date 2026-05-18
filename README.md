@@ -15,7 +15,7 @@
 | 현재 지표 | 총 22개 PR, 3개 머지, 7개 리뷰 대기, 12개 종료·정리 |
 | 대표 backend 사례 | Spring Boot `MailSender` failure analysis 개선 PR 머지 |
 | 주요 역량 | Spring auto-configuration 분석, targeted test, API 호환성 리팩터링, maintainer workflow 대응 |
-| 바로 볼 문서 | [공개 포트폴리오](docs/portfolio/backend-open-source-portfolio.md), [면접 답변](docs/portfolio/interview-stories.md), [Spring Boot 사례](docs/case-studies/spring-boot-49582.md) |
+| 바로 볼 문서 | [공개 포트폴리오](docs/portfolio/backend-open-source-portfolio.md), [면접 답변](docs/portfolio/interview-stories.md), [Spring Boot 사례](docs/case-studies/spring-boot-49582.md), [readiness checklist](docs/lessons/rejected-and-closed-prs.md) |
 
 ---
 
