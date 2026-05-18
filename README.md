@@ -32,15 +32,15 @@
 
 ## 📊 기여 현황
 
-**기준일**: 2026-04-06
+**기준일**: 2026-05-18
 
-| 항목 | 내용 |
-| ---- | ---- |
-| 총 PR | 21개 |
-| ✅ 머지 | 3개 |
-| ⏳ 리뷰 대기 | 6개 |
-| ⚪ 종료·자진 정리 | 12개 |
-| 주요 프로젝트 | Spring Guides, Spring REST Docs, Spring Batch, Spring Boot, Spring Security, Apache Iceberg, Querydsl |
+| 항목              | 내용                                                                                                                     |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| 총 PR             | 22개                                                                                                                     |
+| ✅ 머지           | 3개                                                                                                                      |
+| ⏳ 리뷰 대기      | 7개                                                                                                                      |
+| ⚪ 종료·자진 정리 | 12개                                                                                                                     |
+| 주요 프로젝트     | Spring Guides, Spring REST Docs, Spring Batch, Spring Boot, Spring Security, Spring Data Redis, Apache Iceberg, Querydsl |
 
 ---
 
@@ -98,6 +98,14 @@
 
 ---
 
+## 🤖 AI 활용 방식
+
+- 이슈 후보 탐색, 관련 코드 위치 파악, 테스트 명령 정리에 AI를 보조 도구로 사용합니다.
+- 실제 구현 방향은 maintainer 코멘트, 기존 코드 패턴, 로컬 테스트 결과를 기준으로 판단합니다.
+- PR 본문과 포트폴리오 기록에는 어떤 문제를 왜 고쳤는지, 어떤 검증을 했는지 직접 추적 가능하게 남깁니다.
+
+---
+
 ## ⏳ 현재 진행 중인 PR
 
 - [querydsl#3933](https://github.com/querydsl/querydsl/pull/3933)
@@ -106,6 +114,7 @@
 - [spring-batch#5318](https://github.com/spring-projects/spring-batch/pull/5318)
 - [spring-batch#5339](https://github.com/spring-projects/spring-batch/pull/5339)
 - [spring-batch#5351](https://github.com/spring-projects/spring-batch/pull/5351)
+- [spring-data-redis#3361](https://github.com/spring-projects/spring-data-redis/pull/3361)
 
 리뷰 대기 PR도 단순히 쌓아 두지 않고, maintainer 반응 가능성, 프로젝트 활동성, triage 상태를 기준으로 계속 분류하고 있습니다.
 
@@ -114,6 +123,8 @@
 ## 공개 문서 안내
 
 - [대표 머지 사례 3건](docs/case-studies/README.md)
+- [백엔드 오픈소스 포트폴리오 요약](docs/portfolio/backend-open-source-portfolio.md)
+- [면접용 대표 답변 정리](docs/portfolio/interview-stories.md)
 - [거절·종료된 PR에서 배운 점](docs/lessons/rejected-and-closed-prs.md)
 - [오픈소스 기여 가이드](docs/guides/open-source-contribution-guide.md)
 - [Spring 프로젝트 추천 정리](docs/guides/spring-project-recommendations.md)
@@ -123,30 +134,31 @@
 
 ## 📋 전체 기여 로그
 
-| # | 프로젝트 | 유형 | 상태 | 링크 |
-| --- | --- | --- | --- | --- |
-| 1 | gs-rest-service | 문서 | ⚪ 종료 | [#172](https://github.com/spring-guides/gs-rest-service/pull/172) |
-| 2 | getting-started-macros | 문서 | ⚪ 종료 | [#19](https://github.com/spring-guides/getting-started-macros/pull/19) |
-| 3 | gs-rest-service | 문서 | ⚪ 종료 | [#173](https://github.com/spring-guides/gs-rest-service/pull/173) |
-| 4 | gs-rest-service | 문서 | ✅ 머지 | [#175](https://github.com/spring-guides/gs-rest-service/pull/175) |
-| 5 | spring-restdocs | 버그 수정 | ⚪ 종료 | [#1022](https://github.com/spring-projects/spring-restdocs/pull/1022) |
-| 6 | spring-restdocs | 기능 추가 | ⚪ 종료 | [#1023](https://github.com/spring-projects/spring-restdocs/pull/1023) |
-| 7 | querydsl | 버그 수정 | ⏳ 대기 | [#3933](https://github.com/querydsl/querydsl/pull/3933) |
-| 8 | querydsl | 버그 수정 | ⏳ 대기 | [#3934](https://github.com/querydsl/querydsl/pull/3934) |
-| 9 | apache/iceberg | 문서 | ✅ 머지 | [#15309](https://github.com/apache/iceberg/pull/15309) |
-| 10 | spring-batch | 버그 수정 | ⚪ 종료 | [#5309](https://github.com/spring-projects/spring-batch/pull/5309) |
-| 11 | spring-batch | 문서 | ⚪ 종료 | [#5313](https://github.com/spring-projects/spring-batch/pull/5313) |
-| 12 | spring-batch | 버그 수정 | ⚪ 종료 | [#5315](https://github.com/spring-projects/spring-batch/pull/5315) |
-| 13 | spring-batch | 버그 수정 | ⏳ 대기 | [#5316](https://github.com/spring-projects/spring-batch/pull/5316) |
-| 14 | spring-batch | 버그 수정 | ⚪ 종료 | [#5317](https://github.com/spring-projects/spring-batch/pull/5317) |
-| 15 | spring-batch | 버그 수정 | ⏳ 대기 | [#5318](https://github.com/spring-projects/spring-batch/pull/5318) |
-| 16 | spring-batch | 기능 추가 | ⏳ 대기 | [#5339](https://github.com/spring-projects/spring-batch/pull/5339) |
-| 17 | spring-security | 버그 수정 | ⚪ 종료 | [#18850](https://github.com/spring-projects/spring-security/pull/18850) |
-| 18 | spring-boot | 버그 수정 | ✅ 머지 | [#49582](https://github.com/spring-projects/spring-boot/pull/49582) |
-| 19 | spring-security | 버그 수정 | ⚪ 종료 | [#18889](https://github.com/spring-projects/spring-security/pull/18889) |
-| 20 | spring-boot | 기능 추가 | ⚪ 종료 | [#49594](https://github.com/spring-projects/spring-boot/pull/49594) |
-| 21 | spring-batch | 버그 수정 | ⏳ 대기 | [#5351](https://github.com/spring-projects/spring-batch/pull/5351) |
+| #   | 프로젝트               | 유형      | 상태    | 링크                                                                    |
+| --- | ---------------------- | --------- | ------- | ----------------------------------------------------------------------- |
+| 1   | gs-rest-service        | 문서      | ⚪ 종료 | [#172](https://github.com/spring-guides/gs-rest-service/pull/172)       |
+| 2   | getting-started-macros | 문서      | ⚪ 종료 | [#19](https://github.com/spring-guides/getting-started-macros/pull/19)  |
+| 3   | gs-rest-service        | 문서      | ⚪ 종료 | [#173](https://github.com/spring-guides/gs-rest-service/pull/173)       |
+| 4   | gs-rest-service        | 문서      | ✅ 머지 | [#175](https://github.com/spring-guides/gs-rest-service/pull/175)       |
+| 5   | spring-restdocs        | 버그 수정 | ⚪ 종료 | [#1022](https://github.com/spring-projects/spring-restdocs/pull/1022)   |
+| 6   | spring-restdocs        | 기능 추가 | ⚪ 종료 | [#1023](https://github.com/spring-projects/spring-restdocs/pull/1023)   |
+| 7   | querydsl               | 버그 수정 | ⏳ 대기 | [#3933](https://github.com/querydsl/querydsl/pull/3933)                 |
+| 8   | querydsl               | 버그 수정 | ⏳ 대기 | [#3934](https://github.com/querydsl/querydsl/pull/3934)                 |
+| 9   | apache/iceberg         | 문서      | ✅ 머지 | [#15309](https://github.com/apache/iceberg/pull/15309)                  |
+| 10  | spring-batch           | 버그 수정 | ⚪ 종료 | [#5309](https://github.com/spring-projects/spring-batch/pull/5309)      |
+| 11  | spring-batch           | 문서      | ⚪ 종료 | [#5313](https://github.com/spring-projects/spring-batch/pull/5313)      |
+| 12  | spring-batch           | 버그 수정 | ⚪ 종료 | [#5315](https://github.com/spring-projects/spring-batch/pull/5315)      |
+| 13  | spring-batch           | 버그 수정 | ⏳ 대기 | [#5316](https://github.com/spring-projects/spring-batch/pull/5316)      |
+| 14  | spring-batch           | 버그 수정 | ⚪ 종료 | [#5317](https://github.com/spring-projects/spring-batch/pull/5317)      |
+| 15  | spring-batch           | 버그 수정 | ⏳ 대기 | [#5318](https://github.com/spring-projects/spring-batch/pull/5318)      |
+| 16  | spring-batch           | 기능 추가 | ⏳ 대기 | [#5339](https://github.com/spring-projects/spring-batch/pull/5339)      |
+| 17  | spring-security        | 버그 수정 | ⚪ 종료 | [#18850](https://github.com/spring-projects/spring-security/pull/18850) |
+| 18  | spring-boot            | 버그 수정 | ✅ 머지 | [#49582](https://github.com/spring-projects/spring-boot/pull/49582)     |
+| 19  | spring-security        | 버그 수정 | ⚪ 종료 | [#18889](https://github.com/spring-projects/spring-security/pull/18889) |
+| 20  | spring-boot            | 기능 추가 | ⚪ 종료 | [#49594](https://github.com/spring-projects/spring-boot/pull/49594)     |
+| 21  | spring-batch           | 버그 수정 | ⏳ 대기 | [#5351](https://github.com/spring-projects/spring-batch/pull/5351)      |
+| 22  | spring-data-redis      | 리팩터링  | ⏳ 대기 | [#3361](https://github.com/spring-projects/spring-data-redis/pull/3361) |
 
 ---
 
-_마지막 업데이트: 2026-04-06_
+_마지막 업데이트: 2026-05-18_

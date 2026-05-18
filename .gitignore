@@ -8,7 +8,6 @@
 
 # Dependencies
 node_modules/
-package-lock.json
 yarn.lock
 pnpm-lock.yaml
 
@@ -36,7 +35,7 @@ temp/
 *.tmp
 
 # Exclude portfolio folder from public repo
-portfolio/
+/portfolio/
 
 # Local-only files
 opencode.json
